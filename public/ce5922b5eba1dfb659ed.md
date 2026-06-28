@@ -17,7 +17,7 @@ ignorePublish: false
 - おまけ
 
 尚、今回のブログ記事のコードは以下にまとめています。
-[https://github.com/spider-man-tm/predict_type_of_pokemon](https://github.com/spider-man-tm/predict_type_of_pokemon)
+[https://github.com/takayoshi-makabe/predict_type_of_pokemon](https://github.com/takayoshi-makabe/predict_type_of_pokemon)
 
 もしもこの記事がお役に立てた時は、Gitのstar、もしくはQiitaのイイねボタンを押して頂けると励みになります。
 
