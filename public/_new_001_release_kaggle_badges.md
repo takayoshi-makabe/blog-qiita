@@ -5,7 +5,7 @@ tags:
   - Kaggle
   - GitHubActions
 private: false
-updated_at: '2025-06-06T14:53:39+09:00'
+updated_at: "2025-06-06T14:53:39+09:00"
 id: 8e287bc6a8f90018049c
 organization_url_name: null
 slide: false
@@ -18,7 +18,7 @@ ignorePublish: false
 
 本日ですが、GitHub のプロフィールに Kaggle のバッジを表示する GitHub Actions を作成しましたので、その紹介をさせていただきます。もしこのプロジェクトにご興味あれば是非とも GitHub でスターをお願いします ⭐️
 
-- [GitHub Repository](https://github.com/spider-man-tm/kaggle-badges)
+- [GitHub Repository](https://github.com/takayoshi-makabe/kaggle-badges)
 
 # 作成した GitHub Actions
 
@@ -38,7 +38,7 @@ README にも記載していますが、この GitHub Actions は Kaggle のユ�
 
 # 使い方
 
-[README](https://github.com/spider-man-tm/kaggle-badges)にも記載していますが、使い方は以下の通りです。
+[README](https://github.com/takayoshi-makabe/kaggle-badges)にも記載していますが、使い方は以下の通りです。
 
 ## 1. 専用リポジトリを作成する
 
@@ -87,10 +87,10 @@ jobs:
           node-version: "20"
 
       - name: Install Puppeteer browser
-        run: npx puppeteer browsers install chrome@126.0.6478.63
+        run: npx puppeteer browsers install chrome@131.0.6778.85
 
       - name: Use Kaggle Badges Action
-        uses: spider-man-tm/kaggle-badges@v1.2.2
+        uses: takayoshi-makabe/kaggle-badges@v1.4.0
         with:
           # ex. user_name: spidermandance
           user_name: { Your Kaggle Username }
