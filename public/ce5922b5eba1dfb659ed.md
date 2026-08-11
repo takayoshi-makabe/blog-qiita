@@ -9,6 +9,8 @@ id: ce5922b5eba1dfb659ed
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # 記事の流れ
 - Microsoft AzureのBing Image Searchを使った画像収集
